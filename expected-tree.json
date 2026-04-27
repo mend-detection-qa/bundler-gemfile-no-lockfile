@@ -1,0 +1,74 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "generic-bundler",
+  "agentVersion": "0.0.0",
+  "pluginVersion": "0.0.0",
+  "orgToken": "__PLACEHOLDER__",
+  "userKey": "__PLACEHOLDER__",
+  "timeStamp": 0,
+  "requesterEmail": "__PLACEHOLDER__",
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {
+    "contributionsAvailable": "false",
+    "commitUrl": "__PLACEHOLDER__",
+    "gitHubInstallationId": "__PLACEHOLDER__",
+    "scmApplicationId": "__PLACEHOLDER__",
+    "branchName": "main",
+    "checkRunId": "__PLACEHOLDER__",
+    "userOrgToken": "__PLACEHOLDER__",
+    "commitId": "__PLACEHOLDER__",
+    "scmInstallationId": "__PLACEHOLDER__",
+    "repository": "mend-detection-qa/bundler-gemfile-no-lockfile",
+    "scaResults": "__PLACEHOLDER__"
+  },
+  "scanSummaryInfo": {
+    "totalElapsedTime": 0,
+    "stepsSummaryInfo": [],
+    "packageManagers": ["RUBYGEMS"],
+    "isPrivileged": false,
+    "scanMethod": { "type": "PackageManager" }
+  },
+  "contributions": [],
+  "projects": [
+    {
+      "projectToken": "__PLACEHOLDER__",
+      "dependencies": [
+        {
+          "artifactId": "rack",
+          "version": "",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "rack.gem",
+          "dependencyFile": "Gemfile",
+          "dependencyType": "DECLARED",
+          "children": []
+        },
+        {
+          "artifactId": "sinatra",
+          "version": "",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "sinatra.gem",
+          "dependencyFile": "Gemfile",
+          "dependencyType": "DECLARED",
+          "children": []
+        },
+        {
+          "artifactId": "multi_json",
+          "version": "",
+          "groupId": "",
+          "systemPath": "",
+          "optional": false,
+          "filename": "multi_json.gem",
+          "dependencyFile": "Gemfile",
+          "dependencyType": "DECLARED",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

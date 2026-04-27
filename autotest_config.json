@@ -6,7 +6,7 @@
     "scan_output": {
       "security_scan_report_conclusion": "failure",
       "total_libs_scanned": {
-        "eq": 3
+        "eq": 9
       },
       "expected_messages": []
     },
@@ -15,23 +15,30 @@
       "check_dependency_tree_detection_status": true,
       "check_update_request_sca_results": false,
       "expected_total_dependencies_number": {
-        "eq": 3
+        "eq": 9
       },
       "expected_direct_dependencies_number": {
         "eq": 3
       },
       "expected_transitive_dependencies_number": {
-        "eq": 0
+        "eq": 6
       },
       "direct_dependencies_names_list": {
         "eq": [
-          "multi_json.gem",
-          "rack.gem",
-          "sinatra.gem"
+          "multi_json-1.20.1.gem",
+          "rack-3.2.6.gem",
+          "sinatra-4.2.1.gem"
         ]
       },
       "transitive_dependencies_names_list": {
-        "eq": []
+        "eq": [
+          "base64-0.3.0.gem",
+          "logger-1.7.0.gem",
+          "mustermann-3.1.1.gem",
+          "rack-protection-4.2.1.gem",
+          "rack-session-2.1.2.gem",
+          "tilt-2.7.0.gem"
+        ]
       },
       "expected_package_managers": {
         "contains": ["ruby"]

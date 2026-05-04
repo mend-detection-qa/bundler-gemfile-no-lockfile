@@ -25,7 +25,7 @@
       },
       "direct_dependencies_names_list": {
         "eq": [
-          "multi_json-1.20.1.gem",
+          "multi_json-1.21.1.gem",
           "rack-3.2.6.gem",
           "sinatra-4.2.1.gem"
         ]
